@@ -1,5 +1,6 @@
 ﻿namespace toracriven
 {
+    using System.Windows.Forms;
     using EnsoulSharp.SDK.MenuUI.Values;
     internal class MenuWrapper
     {
@@ -45,11 +46,6 @@
             public static readonly MenuBool DrawBT = new MenuBool("DrawBT", "Draw Burst Engage Range");
             public static readonly MenuBool DrawFH = new MenuBool("DrawFH", "Draw FastHarass Engage Range");
             public static readonly MenuBool DrawHS = new MenuBool("DrawHS", "Draw Harass Engage Range");
-        }
-
-        public class Credit
-        {
-            public static readonly MenuBool Credit = new MenuBool("Torac", "Fucking Crazy !!!");
         }
     }
 }
